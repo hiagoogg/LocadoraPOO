@@ -23,8 +23,7 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.1.0</version>
         </dependency>
-
-        <!-- JDBC API (opcional, mas ajuda com algumas IDEs) -->
+             
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
