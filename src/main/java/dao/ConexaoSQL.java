@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 
 public class ConexaoSQL implements ConexaoDB {
     // trocar a senha de acordo com o SQL
-    private static final String URL = "jdbc:mysql://localhost:3306/locadora?useTimezone=true&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3307/locadoradb?useTimezone=true&serverTimezone=UTC";
     private static final String USUARIO = "root";
-    private static final String SENHA = "SUA_SENHA_AQUI";
+    private static final String SENHA = "catolica";
 
     @Override
     public Connection obterConexao() throws Exception {
